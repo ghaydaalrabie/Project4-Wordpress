@@ -1,0 +1,160 @@
+2022-09-06T06:48:01+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array"],"element":"Array"} in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\elementor\core\base\document.php:942
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(175): WP_Background_Process->handle()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\class-wp-hook.php(307): WP_Background_Process->maybe_handle()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-admin\admin-ajax.php(187): do_action()
+#9 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\elementor\core\base\document.php on line 942
+
+2022-09-06T06:51:26+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array"],"element":"Array"} in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\elementor\core\base\document.php:942
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\class-wp-hook.php(307): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\plugin.php(524): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\elementor\core\base\document.php on line 942
+
+2022-09-06T06:57:23+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array"],"element":"Array"} in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\elementor\core\base\document.php:942
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\class-wp-hook.php(307): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\plugin.php(524): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\elementor\core\base\document.php on line 942
+
+2022-09-06T07:04:25+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array"],"element":"Array"} in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\elementor\core\base\document.php:942
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\class-wp-hook.php(307): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\plugin.php(524): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\elementor\core\base\document.php on line 942
+
+2022-09-06T07:10:14+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array"],"element":"Array"} in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\elementor\core\base\document.php:942
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\class-wp-hook.php(307): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\plugin.php(524): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\elementor\core\base\document.php on line 942
+
+2022-09-06T07:14:15+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array"],"element":"Array"} in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\elementor\core\base\document.php:942
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\class-wp-hook.php(307): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\plugin.php(524): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\elementor\core\base\document.php on line 942
+
+2022-09-06T07:19:05+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array"],"element":"Array"} in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\elementor\core\base\document.php:942
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\class-wp-hook.php(307): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\plugin.php(524): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\elementor\core\base\document.php on line 942
+
+2022-09-06T07:24:07+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array"],"element":"Array"} in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\elementor\core\base\document.php:942
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\class-wp-hook.php(307): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\plugin.php(524): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\elementor\core\base\document.php on line 942
+
+2022-09-06T07:28:56+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array"],"element":"Array"} in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\elementor\core\base\document.php:942
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\class-wp-hook.php(307): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\plugin.php(524): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\elementor\core\base\document.php on line 942
+
+2022-09-06T07:33:58+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array"],"element":"Array"} in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\elementor\core\base\document.php:942
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\class-wp-hook.php(307): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\plugin.php(524): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\elementor\core\base\document.php on line 942
+
+2022-09-06T10:10:18+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #2 must be of type array, null given in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\ultimate-addons-for-gutenberg\classes\class-uagb-block-module.php:175
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\ultimate-addons-for-gutenberg\classes\class-uagb-block-module.php(175): array_merge()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\ultimate-addons-for-gutenberg\classes\class-uagb-post-assets.php(785): UAGB_Block_Module::get_frontend_css()
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\ultimate-addons-for-gutenberg\classes\class-uagb-post-assets.php(969): UAGB_Post_Assets->get_block_css_and_js()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\ultimate-addons-for-gutenberg\classes\class-uagb-post-assets.php(899): UAGB_Post_Assets->get_blocks_assets()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\ultimate-addons-for-gutenberg\classes\class-uagb-post-assets.php(881): UAGB_Post_Assets->common_function_for_assets_preparation()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\ultimate-addons-for-gutenberg\classes\class-uagb-post-assets.php(225): UAGB_Post_Assets->prepare_assets()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\ultimate-addons-for-gutenberg\classes\utils.php(22): UAGB_Post_Assets->__construct()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\ultimate-addons-for-gutenberg\classes\class-uagb-front-assets.php(81): uagb_get_post_assets()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\class-wp-hook.php(307): UAGB_Front_Assets->set_initial_variables()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\plugin.php(524): WP_Hook->do_action()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\class-wp.php(787): do_action_ref_array()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-includes\functions.php(1330): WP->main()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-blog-header.php(16): wp()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\index.php(17): require('...')
+#15 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\bref\wp-content\plugins\ultimate-addons-for-gutenberg\classes\class-uagb-block-module.php on line 175
+
